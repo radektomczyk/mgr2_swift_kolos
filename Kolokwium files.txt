@@ -1,0 +1,23 @@
+Task 1: Add Game Restart Button
+Add a button to ContentView alongside the shuffle button.
+Use a functional variable to restart the game in the MemoGameViewModel and bind it to the new button.
+
+Task 2: Add Move Counter
+Add a property moveCounter in MemoGameViewModel to track moves.
+Increment moveCounter in choose(_:) each time a card is tapped.
+Display moveCounter under the title in ContentView.
+
+Task 3: Win Screen View
+Create a new SwiftUI view file (e.g., WinScreenView.swift).
+Include a congratulatory message, the winning emoji with a pulsing animation, and a restart button.
+
+Task 4: Win Condition Function
+Add a method in MemoGameModel to check if the game is won by verifying that all non-main cards are matched.
+
+Task 5: Show Win Screen on Victory
+Modify ContentView to observe the win condition.
+When the game is won, switch the main view to the WinScreenView.
+
+Task 6: Hexagon Shape
+Create a new SwiftUI shape (HexagonShape) in a separate file.
+Overlay the shape beneath the card's emoji in CardView.
